@@ -1,0 +1,6 @@
+{
+  "name": "Ropeman",
+  "tagline": "ropeman, ROP challenge chain",
+  "body": "### ROP::Ropeman\r\n* In this lab, students can get first-hand experience on exploiting stack buffer-overflow vulnerability with different ROP techniques.\r\n* In a series of stepwise challenges, students will meet different scenarios after finding out a stack overflow vulnerability, each requires different methods and skills to be exploited.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
