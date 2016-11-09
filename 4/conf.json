@@ -1,0 +1,19 @@
+{
+"flag_dir":"/ctfs/ropeman/rw/flag",
+"flag_pre":"10000|flag-->|FLAG_ROP_ME_IF_YOU_C@N_",
+"execs":[
+	{"cmd" : " chown guest:guest /home/guest/" , "extra" : "", "options":""},
+	{"cmd" : " chmod 755 /home/guest" , "extra" : "", "options":""},
+    {"cmd" : " chown guest:guest /home/guest/" , "extra" : "/ro", "options":""},
+    {"cmd" : " chmod 755 /home/guest/" , "extra" : "/ro", "options":""},
+    {"cmd" : " chown ctf:guest /home/guest/" , "extra" : "/ro/ropeman", "options":""},
+    {"cmd" : " chmod 4550 /home/guest/", "extra" : "/ro/ropeman", "options":""},
+    {"cmd" : " chattr +i /home/guest/", "extra" : "/ro/ropeman", "options" : "--privileged "},
+    {"cmd" : " chown -R ctf:ctf /home/guest/" , "extra" : "/ro/wordlists", "options":""},
+    {"cmd" : " chown ctf:ctf /home/guest/" , "extra" : "/rw", "options":""},
+    {"cmd" : " chmod 755 /home/guest/" , "extra" : "/rw", "options":""},
+    {"cmd" : " chown ctf:ctf /home/guest/" , "extra" : "/rw/flag", "options":""},
+    {"cmd" : " chmod 400 /home/guest/", "extra" : "/rw/flag", "options":""},
+    {"cmd" : " chattr +i /home/guest/" , "extra" : "/rw/flag", "options" : "--privileged "}
+]
+}
