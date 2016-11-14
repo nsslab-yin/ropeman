@@ -1,6 +1,4 @@
-Your challenge program 'ropeman' is in directory 'ro'
-
-DIR 'ro' stands for read_only
-DIR 'rw' stands for read&write
+Your challenge program 'ropeman' is in DIE 'ro'
+Your target is to read the content of file 'flag' in DIR 'rw'
 
 Enjoy!
